@@ -1,33 +1,16 @@
-import React from "react";
-function Nav(){
-    return(
-        
-        <nav id="navbar" >        
-   <ul>
-    <li>
-        <a href="">Home</a>
-    </li>
-    <li>
-        <a href="">About us</a>
-    </li>
-    <li>
-        <a href="">Featured</a>
-    </li>
-    <li>
-        <a href="">Our Services</a>
-    </li>
-    <li>
-        <a href="">Gallery</a>
-    </li>
-    <li>
-        <a href="">Our Achievements</a>
-    </li>
+import classes from "./../styles/navbar.module.css";
 
-   </ul>
-    </nav>
-
-    )
-
+function Nav() {
+  return (
+    <div  className={classes.nav}>
+        <div className={classes.navItem}>Home</div>
+        <div className={classes.navItem}>About us</div>
+        <div className={classes.navItem}>Featured</div>
+        <div className={classes.navItem}>Our Services</div>
+        <div className={classes.navItem}>Gallery</div>
+        <div className={classes.navItem}>Our Achievements</div>
+    </div>
+  );
 }
 
 export default Nav;
