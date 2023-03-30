@@ -57,8 +57,7 @@ span {
 #footer {
   display: flex;
   width: 100%;
-  position: relative;
-  bottom: 177px;
+  margin-top: -160px;
 }
 .box {
   width: 205px;
@@ -81,6 +80,5 @@ span {
   display: flex;
 }
 #c-2 {
-  height: 355px;
   background: #414042;
 }
