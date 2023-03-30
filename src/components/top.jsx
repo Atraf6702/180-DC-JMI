@@ -6,7 +6,7 @@ import classes from "../styles/top.module.css";
 function Top() {
   const bg = {
     backgroundImage: `url(${require("../images/bg-1.png")})`,
-    backgroundSize: `100% 550px`,
+    backgroundSize: `100% 650px`,
     backgroundRepeat: `no-repeat`,
   };
   return (
