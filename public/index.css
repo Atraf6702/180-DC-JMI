@@ -17,7 +17,7 @@ p {
   font-size: 7px;
 }
 
-.container{
+.container {
   padding: 1rem 2rem;
 }
 
@@ -78,7 +78,4 @@ span {
 }
 #social {
   display: flex;
-}
-#c-2 {
-  background: #414042;
 }
