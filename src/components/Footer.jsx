@@ -4,7 +4,7 @@ import classes from "./../styles/Footer.module.css";
 
 function Footer(){
     return(
-        <div class="container" id="c-2">
+        <div class={classes.footerContainer} >
        <Logo size="340px"/>
         <div id="footer">
         <div className={classes.flex}><h3>CONTACT US</h3>

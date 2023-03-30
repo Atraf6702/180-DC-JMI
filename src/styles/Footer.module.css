@@ -1,3 +1,8 @@
+.footerContainer{
+    padding: 1rem 2rem;
+    background: #414042;
+}
+
 .flex{
     display: flex;
     flex-direction: column;
