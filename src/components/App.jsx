@@ -3,11 +3,13 @@ import Top from "./top";
 import Footer from "./Footer";
 import Body from './Body';
 import Blog from './Blog';
+import Aboutus from './Aboutus';
 function App(){
 
     return (
         <div>
        <Top/>
+       <Aboutus/>
        <Blog/>
        <Body/>
        <Footer/>
